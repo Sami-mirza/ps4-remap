@@ -200,5 +200,5 @@ ps4-remap/
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
-# ps4-remap
+MIT — see [LICENSE](LICENSE).  
+Copyright © 2026 Sami Mirza. You may use and share the code; the author retains ownership.
