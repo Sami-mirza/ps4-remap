@@ -1,1 +1,13 @@
-evdev>=1.6.0
+# Install the extras for your OS, e.g.:
+#   pip install -r requirements.txt
+#
+# Platform packages are selected automatically via environment markers.
+
+# Linux — kernel gamepad I/O
+evdev>=1.6.0; sys_platform == "linux"
+
+# Windows / macOS — read physical pads
+pygame>=2.5.0; sys_platform == "win32" or sys_platform == "darwin"
+
+# Windows — virtual DualShock 4 (installs ViGEmBus driver)
+vgamepad>=0.1.0; sys_platform == "win32"
